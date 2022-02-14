@@ -7,12 +7,23 @@
 </head>
 
 <body>
-  <center>
-    <h2>My Contact Details</h2>
+
+    <h2>Send message</h2>
     <hr size="3" noshade>
     <br>
-  </center>
-  <ul>
+
+    <form action="mailto:samyak.learningtech@gmail.com" method="post" enctype="text/plain">
+      <label for="name">Enter your name:</label>
+      <input type="text" name="My name: "><br><br>
+      <label for="message">What's your message?</label><br>
+      <textarea name="My message to you: " rows="8" cols="80"></textarea><br><br><br>
+      <input type="submit"><br><br>
+    </form>
+
+    <hr size="3" noshade>
+    <h2>My Contact Details</h2>
+
+  <ul style="list-style-type:none">
     <li>
       <h3>E-mail</h3>
       <p>samyak.professional@gmail.com</p>
@@ -28,6 +39,7 @@
       <h3><a href="https://github.com/ArtistSamyak?tab=repositories">GitHub</a></h3>
     </li>
   </ul>
+
 </body>
 
 </html>
